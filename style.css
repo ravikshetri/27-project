@@ -1,0 +1,110 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+#nav-list{
+    list-style-type: none;
+    font-size: 25px;
+}
+
+.list-items>a{
+    color: white;
+    text-decoration: none;
+}
+
+.list-items{
+    display: flex;
+    gap: 14px;
+}
+
+.list-items>a:hover{
+    text-shadow: 2px 2px 4px  black;
+}
+
+.nav-container{
+    min-height: 50px;
+    width: 100vw;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(55,45,253,1) 100%);
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+}
+
+#para{
+    color: white;
+    text-shadow: 3px 3px 10px black;
+    font-size: 2.8rem;
+}
+
+#nav-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 15px;
+    padding: 10px;
+}
+
+.footer-box{
+    padding: 13px;
+    background: rgb(31, 192, 195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(55,45,253,1) 100%);
+    text-align: center;
+}
+
+.footer-box>p{
+    color: white;
+    font-size: 20px;
+}
+
+.item{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.right-box>img{
+    border-radius: 5px;
+    width: 200px;
+    height: 320px;
+}
+
+.Ingredients{
+    list-style-type: none;
+}
+
+.recipe{
+    line-height: 20px;
+    font-size: 20px;
+}
+.left-box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.content-box{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.item{
+    display: flex;
+    justify-content: space-around;
+}
+
